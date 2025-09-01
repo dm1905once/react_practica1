@@ -30,7 +30,7 @@
 
     .textArea {
         @apply
-        h-40 w-84
+        /*h-40 w-84*/
         p-3
         shadow-amber-100
         border-1 border-amber-600 rounded-xl  shadow-md
