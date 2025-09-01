@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer components {
+    .buttonLetter {
+        @apply
+        w-8
+        h-8
+        border-1
+        border-amber-300
+        bg-amber-200
+        rounded-sm
+        hover:bg-amber-300
+        focus:outline-1 focus:outline-offset-1 focus:outline-amber-400
+        shadow-md
+        transition duration-150 ease-in-out
+    }
+}
